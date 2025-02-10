@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.team {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+
+.score {
+    font-size: 90px;
+    font-weight: 400;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+    padding: 20px 60px 5px;
+    margin: 0 0 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.add-score {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.add-score-border {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 13px;
+    margin: 3px;
+    background: transparent;
+    color: #9AABD8;
+}
+
+.add-score-border:hover {
+    background: #0d1317;
+}
+
+.score-font {
+    font-family: Cursed Timer ULiL; 
+}
+
+#reset-btn {
+    height: 45px;
+    margin: 20px;
+}
